@@ -11,3 +11,9 @@ for i in range(1, 11):
     for j in range(1, 11):
         print(f'{j}x{i:1}={j*i:2}', end='\t')
     print()
+
+
+#Bonus: f-string:
+name = 'Huy'
+age = 29
+print(f'Hello my name is {name}, I am {age}')
