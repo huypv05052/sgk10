@@ -48,9 +48,9 @@ def dsTen():
             if n>0:
                 break
             else:
-                print('Danh sách học sinh phải là số nguyên dương.')
+                print('Số học sinh phải là số nguyên dương.')
         except ValueError:
-            print('Danh sách học sinh phải là số nguyên dương.')
+            print('Số học sinh phải là số nguyên dương.')
 
     ten=[]
     for i in range(1, n+1):
